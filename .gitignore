@@ -1,0 +1,21 @@
+# Raw data files
+data/*.csv
+data/*.zip
+data/*.txt
+
+# Processed parquet is fine to keep, but exclude if large
+# data/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
